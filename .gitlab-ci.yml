@@ -5,4 +5,5 @@ include:
 
 variables:
   CI_RENOVATE_IMAGE: 'ghcr.io/renovatebot/renovate:43.198.0'
+  LOG_LEVEL: 'debug'
   RENOVATE_EXTRA_FLAGS: 'MalteJoe/Renovate-Reproduction-Terraform-Provider-Hashes'

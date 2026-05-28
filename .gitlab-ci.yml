@@ -4,5 +4,5 @@ include:
     ref: v26.0.1
 
 variables:
-  RENOVATE_AUTODISCOVER: 'true'
-  RENOVATE_AUTODISCOVER_NAMESPACES: 'MalteJoe'
+  CI_RENOVATE_IMAGE: 'ghcr.io/renovatebot/renovate:43.198.0'
+  RENOVATE_EXTRA_FLAGS: 'MalteJoe/Renovate-Reproduction-Terraform-Provider-Hashes'

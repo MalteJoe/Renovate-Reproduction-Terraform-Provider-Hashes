@@ -1,7 +1,7 @@
 include:
   - project: 'renovate-bot/renovate-runner'
     file: '/templates/renovate.gitlab-ci.yml'
-    ref: v26.0.1
+    ref: v26.1.0
 
 variables:
   CI_RENOVATE_IMAGE: 'ghcr.io/renovatebot/renovate:43.198.0'
